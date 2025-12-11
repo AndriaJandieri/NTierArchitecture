@@ -1,6 +1,6 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using NTier.Web.Models;
+using NTier.Models;
 
 namespace NTier.Web.Controllers
 {

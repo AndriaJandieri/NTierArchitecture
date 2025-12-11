@@ -1,4 +1,4 @@
-namespace NTier.Web.Models
+namespace NTier.Models
 {
     public class ErrorViewModel
     {

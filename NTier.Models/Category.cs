@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 
-namespace NTier.Web.Models
+namespace NTier.Models
 {
     public class Category
     {
@@ -11,7 +11,7 @@ namespace NTier.Web.Models
         [Required]
         [DisplayName("Category Name")]
         [MaxLength(10, ErrorMessage = "Name must be between 1 and 10")]
-        public string Name { get; set; }
+        public string? Name { get; set; }
 
         [DisplayName("Display Order")]
         [Range(1, 100, ErrorMessage = "Display Order must be between 1 and 100")]

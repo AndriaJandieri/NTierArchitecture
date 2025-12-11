@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using NTier.Web.Models;
+using NTier.Models;
 
-namespace NTier.Web.Data
+namespace NTier.DataAccess.Data
 {
     public class ApplicationDbContext : DbContext
     {

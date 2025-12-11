@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using NTier.Web.Data;
-using NTier.Web.Models;
+using NTier.DataAccess.Data;
+using NTier.Models;
 
 namespace NTier.Web.Controllers
 {
