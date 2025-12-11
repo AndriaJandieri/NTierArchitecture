@@ -23,6 +23,16 @@ a {
   border-color: #1861ac;
 }
 
+
+/*
+.custom-stripe > tbody > tr:nth-of-type(odd) {
+    background-color: lightgray !important;
+}
+
+.custom-stripe > tbody > tr:nth-of-type(even) {
+    background-color: lightsteelblue !important;
+}*/
+
 .border-top {
   border-top: 1px solid #e5e5e5;
 }
